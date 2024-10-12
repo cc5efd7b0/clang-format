@@ -25,7 +25,7 @@ FixNamespaceComments: true
 IncludeCategories:
   - Regex: '^<.*'
     Priority: 1
-  - Regex: '^<.*(windows|shlobj|unistd|pthread|sys|linux|unistd|fcntl).*>'
+  - Regex: '^<.*(windows|shlobj|unistd|pthread|sys|linux||fcntl).h>$'
     Priority: 2
   - Regex: '.*'
     Priority: 3
