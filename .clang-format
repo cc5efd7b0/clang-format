@@ -36,7 +36,7 @@ FixNamespaceComments: true
 SpacesBeforeTrailingComments: 1
 
 # Include Sort
-IncludeBlocks: Preserve
+SortIncludes: false
 
 # Access Modifiers
 AccessModifierOffset: -4
