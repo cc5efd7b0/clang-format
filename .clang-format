@@ -35,6 +35,9 @@ AlwaysBreakTemplateDeclarations: Yes
 FixNamespaceComments: true
 SpacesBeforeTrailingComments: 1
 
+# Include Sort
+IncludeBlocks: Preserve
+
 # Access Modifiers
 AccessModifierOffset: -4
 
