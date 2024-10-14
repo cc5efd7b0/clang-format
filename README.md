@@ -1,4 +1,4 @@
-This repo is for my personal use only, bad if this repo is private repo, I'm in trouble(I won't say why because it would be too much trouble to explain)
+This repo is for my personal use only, bad if this repo is private repo, I'm in trouble(I won't say why because it would be too much trouble to explain  
 get command  
 ```sh
 curl -o .clang-format https://cc5efd7b0.github.io/clang-format/.clang-format
