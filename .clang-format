@@ -1,7 +1,14 @@
 Language: Cpp
 BasedOnStyle: Google
-AccessModifierOffset: -4
-AlwaysBreakTemplateDeclarations: Yes
+
+# Indentation and Tabs
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+NamespaceIndentation: All
+IndentCaseBlocks: true
+
+# Brace Wrapping
 BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
@@ -20,24 +27,17 @@ BraceWrapping:
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
 BreakBeforeBraces: Custom
-BreakConstructorInitializers: AfterColon
+
+# Template Declarations
+AlwaysBreakTemplateDeclarations: Yes
+
+# Comments and Spacing
 FixNamespaceComments: true
-IncludeCategories:
-  - Regex: '^<.*'
-    Priority: 1
-  - Regex: '^<.*(windows|shlobj|unistd|pthread|sys|linux||fcntl).h>$'
-    Priority: 2
-  - Regex: '.*'
-    Priority: 3
-SortIncludes: true
-IncludeIsMainRegex: '([-_](test|unittest))?$'
-IndentCaseBlocks: true
-NamespaceIndentation: All
-DerivePointerAlignment: false
-BreakBeforeTernaryOperators: true
-AlignAfterOpenBracket: Align
-ColumnLimit: 120
 SpacesBeforeTrailingComments: 1
-TabWidth: 4
-IndentWidth: 4
-UseTab: Always
+
+# Access Modifiers
+AccessModifierOffset: -4
+
+# Other Settings
+DerivePointerAlignment: false
+ColumnLimit: 120
