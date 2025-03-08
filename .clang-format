@@ -4,11 +4,16 @@ BasedOnStyle: Google
 # Indentation and Tabs
 IndentWidth: 4
 TabWidth: 4
-UseTab: Never
 NamespaceIndentation: All
-IndentCaseBlocks: true
+AlwaysBreakTemplateDeclarations: Yes
+FixNamespaceComments: true
+SpacesBeforeTrailingComments: 1
+SpaceBeforeParens: Never
+AccessModifierOffset: -4
+ColumnLimit: 120
 
 # Brace Wrapping
+BreakBeforeBraces: Custom
 BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
@@ -26,22 +31,3 @@ BraceWrapping:
   SplitEmptyFunction: false
   SplitEmptyRecord: false
   SplitEmptyNamespace: false
-BreakBeforeBraces: Custom
-
-# Template Declarations
-AlwaysBreakTemplateDeclarations: Yes
-
-# Comments and Spacing
-FixNamespaceComments: true
-SpacesBeforeTrailingComments: 1
-SpaceBeforeParens: Never
-
-# Include Sort
-SortIncludes: true
-
-# Access Modifiers
-AccessModifierOffset: -4
-
-# Other Settings
-DerivePointerAlignment: true
-ColumnLimit: 120
