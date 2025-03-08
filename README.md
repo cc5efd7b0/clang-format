@@ -1,6 +1,5 @@
-This repo is for my personal use only, bad if this repo is private repo, I'm in trouble(I won't say why because it would be too much trouble to explain  
+This is a completely private repository, but I haven't set it to private because I want to be able to fetch the `.clang-format` file from anywhere using curl.
 get command  
 ```sh
 curl -O https://cc5efd7b0.github.io/clang-format/.clang-format
 ```
-~~別に`raw.githubusercontent.com/..`でよかったけど見栄え的なというかなんというかこっちのほうがなんか好きだったというしょうもない上よくわからない理由でわざわざstatic.yaml設定した。とはいえConfigureボタン押せばテンプレ出してくれるしそのまま使えるからコミットすればOKなの便利だよなぁ~~
