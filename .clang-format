@@ -4,7 +4,7 @@ BasedOnStyle: Google
 # Indentation and Tabs
 IndentWidth: 4
 TabWidth: 4
-UseTab: Always
+UseTab: Never
 NamespaceIndentation: All
 IndentCaseBlocks: true
 
@@ -18,7 +18,7 @@ BraceWrapping:
   AfterNamespace: true
   AfterStruct: true
   AfterUnion: true
-  AfterExternBlock: false
+  AfterExternBlock: true
   BeforeCatch: true
   BeforeElse: true
   BeforeLambdaBody: true
@@ -34,13 +34,14 @@ AlwaysBreakTemplateDeclarations: Yes
 # Comments and Spacing
 FixNamespaceComments: true
 SpacesBeforeTrailingComments: 1
+SpaceBeforeParens: Never
 
 # Include Sort
-SortIncludes: false
+SortIncludes: true
 
 # Access Modifiers
 AccessModifierOffset: -4
 
 # Other Settings
-DerivePointerAlignment: false
+DerivePointerAlignment: true
 ColumnLimit: 120
